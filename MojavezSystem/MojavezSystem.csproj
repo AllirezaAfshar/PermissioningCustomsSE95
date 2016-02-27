@@ -371,6 +371,7 @@
     <Compile Include="Controllers\Documents.cs" />
     <Compile Include="Controllers\Organ.cs" />
     <Compile Include="Controllers\Permissions.cs" />
+    <Compile Include="Controllers\Rule.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

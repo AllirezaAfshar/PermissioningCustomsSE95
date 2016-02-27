@@ -13,10 +13,12 @@ namespace MojavezSystem
         public static int docID = 1;
         public static int permID = 1;
         public static int orgID = 1;
+        public static int RuleID = 1;
 
         public static List<Organ> OrgsList = new List<Organ>(); 
         public static List<Permission> PermissionList = new List<Permission>();
         public static List<Documents> DocumentList = new List<Documents>();
+        public static List<Rule> RuleseList = new List<Rule>(); 
         
         public static void AddOrgan(Organ o)
         {
@@ -41,7 +43,12 @@ namespace MojavezSystem
 
         }
 
-
+        public static void AddRule(Rule r)
+        {
+            
+        }
 
     }
+
+
 }
