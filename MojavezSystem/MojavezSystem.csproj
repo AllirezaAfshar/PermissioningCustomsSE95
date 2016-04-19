@@ -226,6 +226,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
+    <Content Include="UI\AddRule.aspx" />
     <Content Include="UI\Documents.aspx" />
     <Content Include="UI\ViewDocument.aspx" />
     <Content Include="UI\ViewPermission.aspx" />
@@ -400,6 +401,13 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="UI\AddRule.aspx.cs">
+      <DependentUpon>AddRule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\AddRule.aspx.designer.cs">
+      <DependentUpon>AddRule.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UI\Documents.aspx.cs">
       <DependentUpon>Documents.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -431,6 +439,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Documentation\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
